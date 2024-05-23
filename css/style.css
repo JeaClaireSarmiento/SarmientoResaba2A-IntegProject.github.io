@@ -1,0 +1,107 @@
+body {
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font to the entire page */
+        }
+        .header {
+            background-color: green;
+        }
+        .footer {
+            background-color: #333;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer h5{
+            color: #fff;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .main {
+            background-color: #ececec;
+            background-size: cover;
+            background-position: center;
+            color: #000000;
+            padding: 50px 0;
+        }
+        .main .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .main .left-content {
+            max-width: 50%;
+        }
+        .main .right-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Styling for navigation links */
+        .navbar-nav {
+            align-items: center;
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 15px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #ffffff;
+        }
+
+        /* Styling for different navigation links */
+        .signup-link {
+            border: 2px solid #007bff; /* White border */
+            background-color: #007bff; /* Transparent background */
+            color: grey;
+            padding: 8px 10px; /* Adjust padding as needed */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .login-link {
+            border: 2px solid #ffffff; /* White border */
+            background-color: green; /* Green background */
+            color: #ffffff; /* White text color */
+            padding: 8px 16px; /* Adjust padding as needed */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .join-us {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .logos-container {
+            margin-top: 30px;
+        }
+        .logo {
+            max-width: 100px;
+            margin: 10px;
+        }
+        .about-us {
+        background-color: #cbdfff; /* Light gray background color */
+        padding: 80px 0; /* Adjust padding as needed */
+    }
+
+    .about-us h2 {
+        color: #333;
+    }
+
+    .about-us p {
+        color: #666;
+    }
+    .user-feedback{
+        background-color: #ccc;
+        padding: 50px 0;
+    }
+    .become-tutor {
+    background-color: #fff;
+        padding: 50px 0; /* Adjust padding as needed */
+    }
+
+    .become-tutor h2 {
+        color: #333;
+    }
+
+    .become-tutor p {
+        color: #666;
+    }
